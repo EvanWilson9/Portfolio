@@ -15,6 +15,7 @@ export default function Navbar() {
     <img className='logo' src="/images/portfolio-logo.jpg"/>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
       <div className='link'>Home</div>
+      <div className='link'>About</div>
       <div className='link'>Projects</div>
       <div className='link'>Services</div>
       <div className='link'>Contact</div>
