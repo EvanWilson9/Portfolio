@@ -395,7 +395,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   display: flex;
   flex-direction: column;
   gap:.5rem;
-  width:240px;
+  width:260px;
 }
 .projectp-img{
   width:auto;
