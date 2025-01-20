@@ -10,9 +10,11 @@ import Footer from '../components/Footer'
 
 
 export default function Home() {
+  
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
   return (
     <>
-      <Navbar />
       <section className='home-section'>
         <Hero />
         <Technologies />

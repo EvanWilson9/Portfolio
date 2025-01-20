@@ -14,9 +14,9 @@ export default function Navbar() {
     <header className='mobile'> 
     <img className='logo' src="/images/portfolio-logo.jpg"/>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
-      <div className='link'>Home</div>
+      <Link onClick={toggleNavbar} to="/" className='link'>Home</Link>
       <div className='link'>About</div>
-      <div className='link'>Projects</div>
+      <Link onClick={toggleNavbar} to="/projects" className='link'>Projects</Link>
       <div className='link'>Services</div>
       <div className='link'>Contact</div>
 
