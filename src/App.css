@@ -225,7 +225,7 @@ transform: rotate(-45deg) translate(7px, -6px);
 
 .technologies-section{
   margin: var(--mobileMargin) 0px;
-  padding:3rem var(--mobileInlinePadding);
+  padding:4rem var(--mobileInlinePadding);
   background-color: rgb(30 29 32);
 }
 .technologies-title{color:white;}
