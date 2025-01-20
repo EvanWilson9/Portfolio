@@ -127,7 +127,7 @@ transform: rotate(-45deg) translate(7px, -6px);
 .button {
   color:black;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
@@ -142,7 +142,7 @@ transform: rotate(-45deg) translate(7px, -6px);
 .button2 {
   color:black;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: bold;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
@@ -296,7 +296,7 @@ transform: rotate(-45deg) translate(7px, -6px);
 
 .contact-section{
   padding: 3rem var(--mobileInlinePadding);
-  background-color: rgb(233 17 34);
+  background-color: rgb(233 17 50);
 }
 .contact-wrapper{
   display: flex;
