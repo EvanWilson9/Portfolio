@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  --mobileMargin: 4rem;
+  --mobileMargin: 5.25rem;
   --mobileInlinePadding: 2rem;
   --mobileButton: .75rem 2rem;
 }
@@ -14,6 +14,9 @@
 
 .logo{
   width:50px;
+}
+header{
+  z-index: 1;
 }
 
 .navbar{
@@ -122,6 +125,7 @@ transform: rotate(-45deg) translate(7px, -6px);
 }
 
 .button {
+  color:black;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -136,6 +140,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   touch-action: manipulation;
 }
 .button2 {
+  color:black;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -155,6 +160,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   background-color: rgb(255 70 84);
   width: 100%;
   z-index: -1;
+  color:black;
   position: absolute;
   height: 100%;
   top: 7px;
@@ -165,6 +171,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   content: "";
   background-color: rgb(0, 185, 171);
   width: 100%;
+  color:black;
   z-index: -1;
   position: absolute;
   height: 100%;
