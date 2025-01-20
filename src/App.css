@@ -297,6 +297,7 @@ transform: rotate(-45deg) translate(7px, -6px);
 .contact-section{
   padding: 3rem var(--mobileInlinePadding);
   background-color: rgb(233 17 50);
+  background-color: rgb(255 70 84);
 }
 .contact-wrapper{
   display: flex;
