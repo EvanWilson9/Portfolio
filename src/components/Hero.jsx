@@ -12,11 +12,11 @@ export default function Hero() {
       <img className='hero-img' src="/images/hero.png"/>
       <h2 className='hero-title'>Evan Wilson</h2>
       <div className='hero-icons'>
-        <EmailIcon width="25px" height="25px"/> 
-        <Facebook width="25px" height="25px"/> 
-        <Instagram width="25px" height="25px"/> 
-        <LinkedIn width="25px" height="25px"/> 
-        <GitHub width="25px" height="25px"/> 
+        <a className='social-link' href="mailto:evanpwilson1@gmail.com" target='_blank'><EmailIcon width="25px" height="25px"/></a>
+        <a className='social-link' href='https://www.facebook.com/evan.wilson.14019/' target='_blank'><Facebook width="25px" height="25px"/></a>
+        <a className='social-link' href='https://www.instagram.com/lefty_evan9/' target='_blank'><Instagram width="25px" height="25px"/></a>
+        <a className='social-link' href='https://www.linkedin.com/in/evan-wilson-2201422a4/' target='_blank'><LinkedIn width="25px" height="25px"/></a> 
+        <a className='social-link' href='https://github.com/EvanWilson9' target='_blank'><GitHub width="25px" height="25px"/></a> 
       </div>
       <div className='desc center'>I empower your business with digital solutions,
          such as websites and web applications, with a focus on your specific needs,

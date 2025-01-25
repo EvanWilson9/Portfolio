@@ -48,6 +48,11 @@ header{
 }
 .link{
   color:white;
+  text-decoration: none;
+}
+.social-link{
+  text-decoration: none;
+  color:black
 }
 .mobile .link{
   text-decoration: none;

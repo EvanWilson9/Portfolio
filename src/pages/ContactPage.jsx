@@ -7,6 +7,9 @@ import Contact from '../components/Contact'
 import ContactForm from '../components/ContactForm'
 
 export default function ContactPage() {
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
   return (
     <section className='contactp-section'>
       <PageTemplate

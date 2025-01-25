@@ -12,7 +12,13 @@ export default function Navbar() {
 
   return (
     <header className='mobile'> 
-    <Link onClick={toggleNavbar} to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
+    <Link 
+    onClick={()=>{
+      if(isOpen){
+        toggleNavbar();
+      }
+    }}
+       to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
       <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/" className='link'>Home</Link>
       <div className='link'>About</div>
