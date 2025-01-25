@@ -1,9 +1,9 @@
 import React from 'react'
 
 import ProjectsP from '../components/ProjectsP'
-import ProjectsHero from '../components/ProjectsHero'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
+import PageTemplate from '../components/PageTemplate'
 
 export default function ProjectsPage() {
 
@@ -11,7 +11,11 @@ export default function ProjectsPage() {
 
   return (
     <section className='pp-section'>
-          <ProjectsHero/>
+          <PageTemplate
+          title="Projects"
+          button="View Projects"
+          desc="Example projects such as business websites, sample websites, and personal projects. Web design, web development, logo design."
+          />
           <ProjectsP/>
           <Contact/>
           <Footer/>

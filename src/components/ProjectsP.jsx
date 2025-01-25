@@ -5,15 +5,15 @@ import ProjectItem from './ProjectItem';
 export default function ProjectsP() {
 
   const projects = [
-    {id: 1, img:"/images/everythingpasta.png", title:"Everything Pasta", desc:"This is a pasta recipe/blog website that allows the user to browse pasta dishes."},
-    {id: 2, img:"/images/standardbarbecue.png", title:"Standard Barbecue", desc:"This is a barbecue sauce company website. It is designed to advertise and drive sales."},
-    {id: 3, img:"/images/mindfulconnections.png", title:"Mindful Connections", desc:"This is a mental health services wesbite that is designed to advertise their services."},
-    {id: 4, img:"/images/savannassweets.png", title:"Savanna's Sweets", desc:"This is a sample template of a cafe-style business. It is designed to drive attention and sales."},
-    {id: 5, img:"/images/chessguessr.png", title:"Chess Guessr", desc:"This was a personal projet where the user has to guess what color square the coordinate is. "},
+    {id: 1, img:"/projectImages/everythingpasta.png", title:"Everything Pasta", desc:"This is a pasta recipe/blog website that allows the user to browse pasta dishes."},
+    {id: 2, img:"/projectImages/standardbarbecue.png", title:"Standard Barbecue", desc:"This is a barbecue sauce company website. It is designed to advertise and drive sales."},
+    {id: 3, img:"/projectImages/mindfulconnections.png", title:"Mindful Connections", desc:"This is a mental health services wesbite that is designed to advertise their services."},
+    {id: 4, img:"/projectImages/savannassweets.png", title:"Savanna's Sweets", desc:"This is a sample template of a cafe-style business. It is designed to drive attention and sales."},
+    {id: 5, img:"/projectImages/chessguessr.png", title:"Chess Guessr", desc:"This was a personal projet where the user has to guess what color square the coordinate is. "},
   ];
 
   return (
-    <section className='projectsp-section'>
+    <section id="next" className='projectsp-section'>
       <div className="projectsp-wrapper">
       <div className='projectsp-top'>
         <h2 className='title'>Projects</h2>

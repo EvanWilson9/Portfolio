@@ -12,13 +12,13 @@ export default function Navbar() {
 
   return (
     <header className='mobile'> 
-    <img className='logo' src="/images/portfolio-logo.jpg"/>
+    <Link onClick={toggleNavbar} to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
-      <Link onClick={toggleNavbar} to="/" className='link'>Home</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/" className='link'>Home</Link>
       <div className='link'>About</div>
-      <Link onClick={toggleNavbar} to="/projects" className='link'>Projects</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/projects" className='link'>Projects</Link>
       <div className='link'>Services</div>
-      <div className='link'>Contact</div>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/contact"><div className='link'>Contact</div></Link>
 
     </nav>
     {!isOpen ? 
