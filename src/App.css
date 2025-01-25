@@ -56,7 +56,6 @@ header{
   transition: 0.4s ease;
   padding-top:.5em;
   padding-bottom:.5em;
-  padding-inline: 3em;
 }
 .navbar.opened {
   transform: translateX(0);
