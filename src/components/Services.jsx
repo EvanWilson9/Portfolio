@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <section className='services-section'>
+    <section id="services" className='services-section'>
       <div className="services-wrapper">
         <h2 className='center title'>SERVICES</h2>
         <img src="/images/services.png"/>
@@ -15,7 +15,7 @@ export default function Services() {
             more revenue.</div>
         <div className='button-container'>
           <button className='button'>MY SERVICES</button>
-          <button className='button2'>MY RESUME</button>
+          <a href='https://docs.google.com/document/d/e/2PACX-1vTBq9yLh_s4O4wLLygzNkjEuKNgPaJRKYBiGaSCjHMo4Q6qSF8Wnx63ZHIoZd7hWAeaPXNuBSDi1_1p/pub' target='_blank'><button className='button2'>MY RESUME</button></a>
         </div>
         </div>
       </div>

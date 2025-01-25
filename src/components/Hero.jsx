@@ -5,6 +5,8 @@ import GitHub from '../FooterIcons/GitHub'
 import LinkedIn from '../FooterIcons/LinkedIn'
 import EmailIcon from '../FooterIcons/EmailIcon'
 
+import {Link} from 'react-router-dom'
+
 export default function Hero() {
   return (
     <section className='hero-section'>
@@ -22,8 +24,8 @@ export default function Hero() {
          such as websites and web applications, with a focus on your specific needs,
           including web design and web development.</div>
       <div className='button-container'>
-        <button className='button' role='button'>CONTACT</button>
-        <button className='button2' role='button'>READ MORE</button>
+        <Link to="/contact"><button className='button' role='button'>CONTACT</button></Link>
+        <a href="#services"><button className='button2' role='button'>READ MORE</button></a>
       </div>
       </div>
     </section>

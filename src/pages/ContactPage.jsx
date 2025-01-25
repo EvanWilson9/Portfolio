@@ -18,7 +18,6 @@ export default function ContactPage() {
       desc="Questions/comments? Or are you here to request a free quote for a website or something else? Feel free to contact me via the form below. You'll get your answer on the same day."
       />
       <ContactForm/>
-      <Contact/>
       <Footer/>
     </section>
   )
