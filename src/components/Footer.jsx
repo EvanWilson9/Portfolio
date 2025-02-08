@@ -4,11 +4,13 @@ import Instagram from '../FooterIcons/Instagram'
 import Facebook from '../FooterIcons/Facebook'
 import LinkedIn from '../FooterIcons/LinkedIn'
 import GitHub from '../FooterIcons/GitHub'
+import YouTube from '../FooterIcons/YouTube'
 
 import HomeIcon from '../FooterIcons/HomeIcon'
 import ProjectsIcon from '../FooterIcons/ProjectsIcon'
 import ServicesIcon from '../FooterIcons/ServicesIcon'
 import ContactIcon from '../FooterIcons/ContactIcon'
+import AboutIcon from '../FooterIcons/AboutIcon'
 
 import PhoneIcon from '../FooterIcons/PhoneIcon'
 import EmailIcon from '../FooterIcons/EmailIcon'
@@ -34,9 +36,11 @@ export default function Footer() {
           <div className='footer-title'>LINKS</div>
           <div className='footer-category-items'>
             <Link className='link' to="/"><div className='footer-item'><HomeIcon/> Home</div></Link>
+            <Link className='link' to="/about"><div className='footer-item'><AboutIcon/> About</div></Link>
             <Link className='link' to="/projects"><div className='footer-item'><ProjectsIcon/> Projects</div></Link>
             <Link className='link' to="/"><div className='footer-item'><ServicesIcon/> Services</div></Link>
             <Link className='link' to="/contact"><div className='footer-item'><ContactIcon/> Contact</div></Link>
+
           </div>
         </div>
         <div className='footer-category three'>
@@ -44,7 +48,7 @@ export default function Footer() {
           <div className='footer-category-items'>
             <div className='footer-item'><PhoneIcon /> 317 869 7832</div>
             <a className='no-underline link' href="mailto:evanpwilson1@gmail.com"><div className='footer-item'><EmailIcon width="20px" height="20px"/> evanpwilson1@gmail.com</div></a>
-            <div className='footer-item'><LocationIcon/> Indianapols, Indiana</div>
+            <div className='footer-item'><LocationIcon/> Indianapolis, Indiana</div>
           </div>
         </div>
       </div>

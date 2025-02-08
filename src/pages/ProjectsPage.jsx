@@ -7,7 +7,7 @@ import PageTemplate from '../components/PageTemplate'
 
 export default function ProjectsPage() {
 
-  // window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 
   return (
     <section className='pp-section'>

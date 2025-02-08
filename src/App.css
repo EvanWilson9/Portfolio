@@ -486,3 +486,15 @@ transform: rotate(-45deg) translate(7px, -6px);
   flex-direction: column;
   gap:1rem;
 }
+.about-section{
+  padding-inline: var(--mobileInlinePadding);
+  margin: 4rem 0px;
+  line-height: 1.5rem;
+}
+
+#next{
+  scroll-margin-top:6rem;
+}
+.footer-img{
+  filter: brightness(0) invert(1);
+}

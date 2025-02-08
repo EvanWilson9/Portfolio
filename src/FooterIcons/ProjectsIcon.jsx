@@ -1,6 +1,9 @@
 import React from 'react'
+import infoIcon from './projects.svg';
+
 
 export default function ProjectsIcon() {
   return (
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>  )
+    <img src={infoIcon} alt="Info Icon" className='footer-img'/>
+  )
 }

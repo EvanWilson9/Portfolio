@@ -12,6 +12,7 @@ import StandardBarbecue from './projects/StandardBarbecue'
 import MindfulConnections from './projects/MindfulConnections'
 import SavannasSweets from './projects/SavannasSweets'
 import ChessGuessr from './projects/ChessGuessr'
+import AboutPage from './pages/AboutPage'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/projects" element={<ProjectsPage />}/>
         <Route path="/contact" element={<ContactPage />}/>
+        <Route path="/about" element={<AboutPage />}/>
         <Route path="/everythingpasta" element={<EverythingPasta />}/>
         <Route path="/standardbarbecue" element={<StandardBarbecue />}/>
         <Route path="/mindfulconnections" element={<MindfulConnections />}/>

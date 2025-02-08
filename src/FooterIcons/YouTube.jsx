@@ -1,8 +1,8 @@
 import React from 'react'
-import infoIcon from './home.svg';
+import infoIcon from './youtube.svg';
 
 
-export default function HomeIcon() {
+export default function YouTube() {
   return (
     <img src={infoIcon} alt="Info Icon" className='footer-img'/>
   )
