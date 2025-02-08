@@ -462,3 +462,27 @@ transform: rotate(-45deg) translate(7px, -6px);
   flex-direction: column;
   gap:2rem;
 }
+.project-container{
+
+}
+.project-wrapper{
+  padding-inline:var(--mobileInlinePadding);
+  margin-bottom:var(--mobileMargin);
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.project-img{
+  width:100%;
+}
+.project-title{
+
+}
+.project-desc{
+  line-height: 1.5rem;
+}
+.project-text{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}

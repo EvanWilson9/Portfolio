@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function ProjectItem(props) {
   return (
     <div className='project'>
-        <img className='projectp-img' src={props.img}/>
+        <img alt="" className='projectp-img' src={props.img}/>
         <h3>{props.title}</h3>
         <p className='desc'>{props.desc}</p>
-        <p className='read-more'>READ MORE &rarr;</p>
+        <Link to={props.page} className='link'><p className='read-more'>READ MORE &rarr;</p></Link>
       </div>
   )
 }
