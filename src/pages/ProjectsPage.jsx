@@ -13,7 +13,9 @@ export default function ProjectsPage() {
     <section className='pp-section'>
           <PageTemplate
           title="Projects"
-          button="View Projects"
+          button1="View Projects"
+          button2="My Services"
+          button2Link="/services"
           desc="Example projects such as business websites, sample websites, and personal projects. Web design, web development, logo design."
           />
           <ProjectsP/>

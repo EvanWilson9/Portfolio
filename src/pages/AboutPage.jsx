@@ -11,7 +11,9 @@ export default function AboutPage() {
     <>
     <PageTemplate 
     title="About Me"
-    button="More About Me"
+    button1="More About Me"
+    button2="My Services"
+    button2Link="/services"
     desc="Hi, I’m Evan Wilson, a web developer passionate about creating sleek websites and apps. Let’s bring your ideas to life!"
     />
       <section id="next" className='about-section'>

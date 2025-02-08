@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Services() {
   return (
@@ -14,8 +15,8 @@ export default function Services() {
              efficiency and/or attract more users, ultimately generating
             more revenue.</div>
         <div className='button-container'>
-          <button className='button'>MY SERVICES</button>
-          <a href='https://docs.google.com/document/d/e/2PACX-1vTBq9yLh_s4O4wLLygzNkjEuKNgPaJRKYBiGaSCjHMo4Q6qSF8Wnx63ZHIoZd7hWAeaPXNuBSDi1_1p/pub'><button className='button2'>MY RESUME</button></a>
+          <Link to="/services"><button className='button'>My Services</button></Link>
+          <a href='https://docs.google.com/document/d/e/2PACX-1vTBq9yLh_s4O4wLLygzNkjEuKNgPaJRKYBiGaSCjHMo4Q6qSF8Wnx63ZHIoZd7hWAeaPXNuBSDi1_1p/pub'><button className='button2'>My Resume</button></a>
         </div>
         </div>
       </div>

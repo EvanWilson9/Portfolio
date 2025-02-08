@@ -14,7 +14,9 @@ export default function ContactPage() {
     <section className='contactp-section'>
       <PageTemplate
       title="Contact"
-      button="To Contact Form"
+      button1="To Contact Form"
+      button2="My Services"
+      button2Link="/services"
       desc="Questions/comments? Or are you here to request a free quote for a website or something else? Feel free to contact me via the form below. You'll get your answer on the same day."
       />
       <ContactForm/>

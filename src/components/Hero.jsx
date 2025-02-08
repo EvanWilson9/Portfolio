@@ -24,8 +24,8 @@ export default function Hero() {
          such as websites and web applications, with a focus on your specific needs,
           including web design and web development.</div>
       <div className='button-container'>
-        <Link to="/contact"><button className='button' role='button'>CONTACT</button></Link>
-        <a href="#services"><button className='button2' role='button'>READ MORE</button></a>
+        <Link to="/contact"><button className='button' role='button'>Contact</button></Link>
+        <a href="#services"><button className='button2' role='button'>Read More</button></a>
       </div>
       </div>
     </section>

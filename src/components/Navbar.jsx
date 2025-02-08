@@ -21,10 +21,10 @@ export default function Navbar() {
        to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
       <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/" className='link'>Home</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/about"><div className='link'>About</div></Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/about" className='link'>About</Link>
       <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/projects" className='link'>Projects</Link>
-      <div className='link'>Services</div>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/contact"><div className='link'>Contact</div></Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/services" className='link'>Services</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/contact" className='link'>Contact</Link>
 
     </nav>
     {!isOpen ? 

@@ -498,3 +498,48 @@ transform: rotate(-45deg) translate(7px, -6px);
 .footer-img{
   filter: brightness(0) invert(1);
 }
+.services-section{
+  
+}
+
+.expertise-card{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  border-radius: 1rem;
+  padding:20px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1)
+}
+.expertise-container{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.expertise-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.gray{
+  color:rgb(86, 84, 84)
+}
+#webdesign-svg{
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 175px;
+    height:175px;
+    background-image: url("/TechnologyIcons/webdesign.svg");
+}
+
+#webdev-svg{
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 175px;
+    height:175px;
+    background-image: url("/TechnologyIcons/webdev.svg");
+}

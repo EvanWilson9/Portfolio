@@ -5,6 +5,7 @@ import Facebook from '../FooterIcons/Facebook'
 import Instagram from '../FooterIcons/Instagram'
 import LinkedIn from '../FooterIcons/LinkedIn'
 import GitHub from '../FooterIcons/GitHub'
+import { Link } from 'react-router-dom'
 
 export default function PageTemplate(props) {
   return (
@@ -21,8 +22,8 @@ export default function PageTemplate(props) {
             </div>
             <div className='desc center'>{props.desc}</div>
             <div className='button-container'>
-              <a href='#next'><button className='button' role='button'>{props.button}</button></a>
-              <button className='button2' role='button'>My Services</button>
+              <a href='#next'><button className='button' role='button'>{props.button1}</button></a>
+              <Link to={props.button2Link}><button className='button2' role='button'>{props.button2}</button></Link>
             </div>
           </div>
         </section>

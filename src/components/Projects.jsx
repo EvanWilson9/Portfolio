@@ -10,7 +10,7 @@ export default function Projects() {
            These projects reflect my skills, creativity, and commitment to delivering
             results that make a difference. Click the button to explore my portfolio and 
             see how I can bring value to your vision!</p>
-        <Link to="/projects"><div><button className='button' role='button'>SEE PROJECTS</button></div></Link>
+        <Link to="/projects"><div><button className='button' role='button'>See Projects</button></div></Link>
       </div>
     </section>
   )
