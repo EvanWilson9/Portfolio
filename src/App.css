@@ -470,7 +470,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   margin-bottom:var(--mobileMargin);
   display: flex;
   flex-direction: column;
-  gap:2rem;
+  gap:1.5rem;
 }
 .project-img{
   width:100%;
