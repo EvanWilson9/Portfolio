@@ -3,6 +3,7 @@ import PageTemplate from '../components/PageTemplate';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Expertise from '../components/Expertise';
+import WhyMe from '../components/WhyMe';
 
 export default function ServicesPage() {
 
@@ -18,7 +19,8 @@ export default function ServicesPage() {
       desc="Creating clean, responsive websites that bring your ideas to life. Let’s build something great together!"
     />
     <section id="next" className='services-section'>
-      <Expertise/>    
+      <Expertise/>  
+      <WhyMe/>  
     </section>
     <Contact/>
     <Footer/>
