@@ -576,3 +576,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   color:#d80909;
   font-weight:bold;
 }
+
+.larger{
+  font-size:18px;
+}

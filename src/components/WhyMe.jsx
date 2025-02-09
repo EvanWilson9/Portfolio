@@ -8,7 +8,7 @@ export default function WhyMe() {
                 <h2>Why Me?</h2>
                 <div id="whyme-svg"></div>
             </div>
-            <p className='desc'>Choosing me means partnering with a passionate freelance web developer
+            <p className='desc larger'>Choosing me means partnering with a passionate freelance web developer
                  and graphic designer dedicated to helping your business stand out. 
                  I offer <span className="emphasis">affordable</span>, custom solutions that combine clean, functional
                   websites with eye-catching visuals—all tailored to meet your unique
