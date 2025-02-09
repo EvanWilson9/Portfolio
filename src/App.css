@@ -526,6 +526,10 @@ transform: rotate(-45deg) translate(7px, -6px);
 .gray{
   color:rgb(86, 84, 84)
 }
+.card{
+  padding-inline:1rem;
+  font-size:15px;
+}
 #webdesign-svg{
   background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -542,4 +546,13 @@ transform: rotate(-45deg) translate(7px, -6px);
     width: 175px;
     height:175px;
     background-image: url("/TechnologyIcons/webdev.svg");
+}
+
+#graphicdesign-svg{
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 175px;
+    height:175px;
+    background-image: url("/TechnologyIcons/graphicdesign.svg");
 }
