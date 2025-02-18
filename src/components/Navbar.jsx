@@ -16,11 +16,11 @@ export default function Navbar() {
     <header className='laptop'>
       <Link to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
       <nav>
-        <Link style={{textDecoration:'none'}} to="/" className='link'>Home</Link>
-        <Link style={{textDecoration:'none'}} to="/about" className='link'>About</Link>
-        <Link style={{textDecoration:'none'}} to="/projects" className='link'>Projects</Link>
-        <Link style={{textDecoration:'none'}} to="/services" className='link'>Services</Link>
-        <Link style={{textDecoration:'none'}} to="/contact" className='link'>Contact</Link>
+        <Link style={{textDecoration:'none'}} to="/" className='link'>HOME</Link>
+        <Link style={{textDecoration:'none'}} to="/about" className='link'>ABOUT</Link>
+        <Link style={{textDecoration:'none'}} to="/projects" className='link'>PROJECTS</Link>
+        <Link style={{textDecoration:'none'}} to="/services" className='link'>SERVICES</Link>
+        <Link style={{textDecoration:'none'}} to="/contact" className='link'>CONTACT</Link>
 
       </nav>
     </header>
@@ -34,11 +34,11 @@ export default function Navbar() {
     }}
        to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/" className='link'>Home</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/about" className='link'>About</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/projects" className='link'>Projects</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/services" className='link'>Services</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/contact" className='link'>Contact</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/" className='link'>HOME</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/about" className='link'>ABOUT</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/projects" className='link'>PROJECTS</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/services" className='link'>SERVICES</Link>
+      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/contact" className='link'>CONTACT</Link>
 
     </nav>
     {!isOpen ? 
