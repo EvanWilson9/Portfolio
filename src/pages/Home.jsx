@@ -14,7 +14,6 @@ export default function Home() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
   return (
-    <>
       <section className='home-section'>
         <Hero />
         <Technologies />
@@ -23,6 +22,5 @@ export default function Home() {
         <Contact />
         <Footer />
       </section>
-    </>
   )
 }

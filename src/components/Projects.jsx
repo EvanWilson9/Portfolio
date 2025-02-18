@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SwiperComponent from './SwiperComponent'
 
 export default function Projects() {
   return (
@@ -11,6 +12,7 @@ export default function Projects() {
             results that make a difference. Click the button to explore my portfolio and 
             see how I can bring value to your vision!</p>
         <Link to="/projects"><div><button className='button' role='button'>See Projects</button></div></Link>
+        <SwiperComponent/>
       </div>
     </section>
   )

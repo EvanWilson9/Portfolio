@@ -11,6 +11,18 @@ export default function Navbar() {
  }
 
   return (
+    <>
+    <header className='laptop'> 
+      <Link to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
+      <nav>
+        <Link style={{textDecoration:'none'}} to="/" className='link'>Home</Link>
+        <Link style={{textDecoration:'none'}} to="/about" className='link'>About</Link>
+        <Link style={{textDecoration:'none'}} to="/projects" className='link'>Projects</Link>
+        <Link style={{textDecoration:'none'}} to="/services" className='link'>Services</Link>
+        <Link style={{textDecoration:'none'}} to="/contact" className='link'>Contact</Link>
+
+      </nav>
+    </header>
     <header className='mobile'> 
     <Link 
     onClick={()=>{
@@ -44,5 +56,6 @@ export default function Navbar() {
                 )
                 }
     </header>
+    </>
   )
 }
