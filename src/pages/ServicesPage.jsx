@@ -19,8 +19,8 @@ export default function ServicesPage() {
       desc="Creating clean, responsive websites that bring your ideas to life. Let’s build something great together!"
     />
     <section id="next" className='services-section'>
-      <Expertise/>  
-      <WhyMe/>  
+        <Expertise/>  
+        <WhyMe/>  
     </section>
     <Contact/>
     <Footer/>

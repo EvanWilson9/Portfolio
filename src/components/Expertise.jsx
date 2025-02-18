@@ -15,7 +15,7 @@ export default function Expertise() {
   return (
     <section className='expertise-section'>
         <div className="expertise-wrapper">
-            <h2>My Expertise</h2>
+            <h2 className='projects title'>My Expertise</h2>
             <div className='expertise-container'>
                 <ExpertiseItem
                 title="Web Design"

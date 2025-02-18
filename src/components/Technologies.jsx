@@ -5,7 +5,7 @@ export default function Technologies() {
     <section className='technologies-section'>
       <div className="technology-wrapper">
         <div className="technology-container">
-        <h2 className='technologies-title'>TECHNOLOGIES</h2>
+        <h2 className='title projects white'>TECHNOLOGIES</h2>
         <div className='technologies'>
         <div className='technology-category'>
             <h3 className='technology-category-title'>Languages</h3>
