@@ -12,7 +12,8 @@ export default function Navbar() {
 
   return (
     <>
-    <header className='laptop'> 
+    <div className="laptop-wrapper"> 
+    <header className='laptop'>
       <Link to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
       <nav>
         <Link style={{textDecoration:'none'}} to="/" className='link'>Home</Link>
@@ -23,6 +24,7 @@ export default function Navbar() {
 
       </nav>
     </header>
+    </div>
     <header className='mobile'> 
     <Link 
     onClick={()=>{

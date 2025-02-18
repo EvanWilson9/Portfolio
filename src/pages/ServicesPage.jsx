@@ -18,7 +18,7 @@ export default function ServicesPage() {
       button2Link="/projects"
       desc="Creating clean, responsive websites that bring your ideas to life. Let’s build something great together!"
     />
-    <section id="next" className='services-section'>
+    <section id="next" className='services-page-section'>
         <Expertise/>  
         <WhyMe/>  
     </section>

@@ -12,11 +12,11 @@ window.scrollTo({ top: 0, behavior: 'smooth' });
     <section className='project-container'>
       <div className='project-wrapper'>
         <img className='project-img' alt="" src={props.img}/>
-        <div className='project-text'>
-          <h3 className='project-title'>{props.title}</h3>
-          <p className='project-desc'>{props.desc}</p>
-        </div>
+        <div className="project-content">
+          <h2 className='title projects'>{props.title}</h2>
+          <p className='desc bigger'>{props.desc}</p>
         <a href={props.link} target='_blank'><button className='button2'>{props.button}</button></a>
+      </div>
       </div>
     </section>
     <Contact/>

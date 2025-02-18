@@ -87,17 +87,25 @@ header{
   padding-inline: 1em;
 }
 
+.laptop-wrapper{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  background-color: white;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+
 .laptop{
   display: none;
   flex-direction: row;
   justify-content: space-between;
   background-color: white;
   align-items: center;
-  position: sticky;
-  top:0;
   height:10vh;
-  padding-inline: 1em;
-  width: 100%;
+  width: 1280px;
+  padding-inline:2em;
   /* background-color: lightcoral; */
 }
 
@@ -257,7 +265,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   flex-direction: column;
   align-items: center;
   gap:1rem;
-  max-width:1200px;
+  max-width:1280px;
 }
 .hero-content{
   display: flex;
@@ -357,6 +365,10 @@ transform: rotate(-45deg) translate(7px, -6px);
   display: flex;
   justify-content: center;
 }
+.services-page-section{
+  margin-top:5rem;
+  margin-bottom:10rem;
+}
 .services-wrapper{
   display: flex;
   flex-direction: column;
@@ -438,7 +450,6 @@ transform: rotate(-45deg) translate(7px, -6px);
     "item1 item2"
     "item3 item3";
   gap: 3rem;
-  align-items: center;
   padding-left: 2rem;
   padding-right: 2rem;
   width: 1280px;
@@ -591,13 +602,32 @@ transform: rotate(-45deg) translate(7px, -6px);
   width: 100%;
 }
 
+.bigger{
+  font-size: larger;
+}
+
+.project-container{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-top:5rem;
+  margin-bottom:3rem;
+
+}
 .project-wrapper{
   padding-inline:var(--mobileInlinePadding);
   margin-bottom:var(--mobileMargin);
   display: flex;
   flex-direction: column;
   gap:1.5rem;
+  width:1280px;
 }
+.project-content{
+  display: flex;
+  flex-direction: column;
+  gap:3rem;
+}
+
 .project-img{
   width:100%;
 }
@@ -831,5 +861,26 @@ transform: rotate(-45deg) translate(7px, -6px);
   }
   .desc{
     line-height: 2rem;
+  }
+  .footer-wrapper{
+    grid-template-areas:
+    "item1 item2 item3";
+  }
+  .footer-section{
+    padding:6rem 0px;
+  }
+  .project-wrapper{
+    flex-direction: row;
+    align-items: center;
+    gap:4rem;
+  }
+  .project-img{
+    width: 50%;
+  }
+}
+
+@media (width > 1280px){
+  .laptop{
+    padding-inline:0px;
   }
 }
