@@ -29,11 +29,11 @@ export default function ContactForm() {
     <section id="next" className='projectsp-section'>
         <div className="projectsp-wrapper">
           <div className='projectsp-top'>
-            <h2 className='title'>Contact Form</h2>
+            <h2 className='title projects'>Contact Form</h2>
             <p className='desc'>You can <a className='no-underline' href="mailto:evanpwilson1@gmail.com"><span className='contact-email'>click here</span></a> to send me an email message via your standard email client, or fill in the fields below.</p>
           </div>
-          <div className='projects-container'>
-            <form className='form-container' onSubmit={onSubmit}>
+          <div className='form-container'>
+            <form className='form-wrapper' onSubmit={onSubmit}>
                 <div className='form-inputs'>
                     <input className='input' type="text" name="name" placeholder='Name' required/>
                     <input className='input' type="email" name="email" placeholder='Email' required/>

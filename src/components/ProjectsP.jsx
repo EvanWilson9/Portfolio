@@ -23,7 +23,7 @@ export default function ProjectsP() {
                 responsive, and user-friendly experiences, whether for businesses or personal brands.</p>
           </div>
           <div className='projects-container'>
-            <div className='projects-wrapper'>
+            <div className='solo-projects-wrapper'>
               {
                 projects.map((item)=> {
                   return(

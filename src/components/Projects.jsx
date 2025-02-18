@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section className='projects-section'>
       <div className="projects-wrapper">
-        <img className='services-img-laptop' src="/images/projects.jpg"/>
+        <img className='projects-img-laptop' src="/images/projects.jpg"/>
         <div className='services-bottom'>
           <h2 className='title projects'>PROJECTS</h2>
           <p className='desc projects'>I’m excited to share some of the work I’ve had the privilege of creating.
