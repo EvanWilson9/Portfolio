@@ -9,9 +9,10 @@ import { Link } from 'react-router-dom'
 
 export default function PageTemplate(props) {
   return (
-    <section className='ph-section'>
-    <div className="ph-wrapper">
+    <section className='hero-section'>
+    <div className="hero-wrapper">
             <img className='hero-img' src="/images/hero.png"/>
+            <div className="hero-content">
             <h2 className='hero-title'>{props.title}</h2>
             <div className='hero-icons'>
               <a className='social-link' href="mailto:evanpwilson1@gmail.com" target='_blank'><EmailIcon width="25px" height="25px"/></a>
@@ -24,6 +25,7 @@ export default function PageTemplate(props) {
             <div className='button-container'>
               <a href='#next'><button className='button' role='button'>{props.button1}</button></a>
               <Link to={props.button2Link}><button className='button2' role='button'>{props.button2}</button></Link>
+            </div>
             </div>
           </div>
         </section>
