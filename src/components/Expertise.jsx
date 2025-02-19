@@ -6,7 +6,7 @@ export default function Expertise() {
         return(
             <div className='expertise-card'>
                 <div id={props.svg}></div>
-                <h4 className='card-title'>{props.title}</h4>
+                <h3 className='card-title'>{props.title}</h3>
                 <div className='desc gray card'>{props.desc}</div>
             </div>
         )
