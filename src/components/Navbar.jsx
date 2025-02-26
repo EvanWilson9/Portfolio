@@ -21,7 +21,6 @@ export default function Navbar() {
         <Link style={{textDecoration:'none'}} to="/projects" className='link'>PROJECTS</Link>
         <Link style={{textDecoration:'none'}} to="/services" className='link'>SERVICES</Link>
         <Link style={{textDecoration:'none'}} to="/contact" className='link'>CONTACT</Link>
-
       </nav>
     </header>
     </div>
