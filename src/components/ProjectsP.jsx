@@ -10,6 +10,7 @@ export default function ProjectsP() {
     {id: 3, img:"/projectImages/mindfulconnections.png", page:"/mindfulconnections", title:"Mindful Connections", desc:"This is a mental health services wesbite that is designed to advertise their services."},
     {id: 4, img:"/projectImages/savannassweets.png", page:"/savannassweets", title:"Savanna's Sweets", desc:"This is a sample template of a cafe-style business. It is designed to drive attention and sales."},
     {id: 5, img:"/projectImages/chessguessr.png", page:"/chessguessr", title:"Chess Guessr", desc:"This was a personal projet where the user has to guess what color square the coordinate is. "},
+    {id: 6, img:"/projectImages/synergy360.png", page:"/synergy360", title:"Synergy 360", desc:"This is a financial company website that is designed to advertise it's services."},
   ];
 
   return (

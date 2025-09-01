@@ -14,13 +14,14 @@ export default function Technologies() {
               <p className='technology'><img className='technology-icon' src="/TechnologyIcons/python.png"/>Python</p>
               <p className='technology'><img className='technology-icon' src="/TechnologyIcons/java.png"/>Java</p>
               <p className='technology'><img className='technology-icon' src="/TechnologyIcons/kotlin.png"/>Kotlin</p>
+              <p className='technology'><img className='technology-icon' src="/TechnologyIcons/r.png"/>R</p>
             </div>
           </div>
           <div className='technology-category'>
             <h3 className='technology-category-title'>Backend</h3>
             <div className='technology-category-items'>
             <p className='technology'><img className='technology-icon' src="/TechnologyIcons/firebase.png"/>Firebase</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/postgresql.png"/>PostgreSQL</p>
+            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/mongodb.png"/>MongoDB</p>
             <p className='technology'><img className='technology-icon' src="/TechnologyIcons/node.png"/>Node</p>
             </div>
           </div>

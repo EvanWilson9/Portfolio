@@ -14,6 +14,7 @@ import SavannasSweets from './projects/SavannasSweets'
 import ChessGuessr from './projects/ChessGuessr'
 import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
+import Synergy360 from './projects/Synergy360'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/mindfulconnections" element={<MindfulConnections />}/>
         <Route path="/savannassweets" element={<SavannasSweets />}/>
         <Route path="/chessguessr" element={<ChessGuessr />}/>
+        <Route path="/synergy360" element={<Synergy360 />}/>
       </Routes>
     </>
   )
