@@ -5,12 +5,12 @@ import ProjectItem from './ProjectItem';
 export default function ProjectsP() {
 
   const projects = [
-    {id: 1, img:"/projectImages/everythingpasta.png", page:"/everythingpasta", title:"Everything Pasta", desc:"This is a pasta recipe/blog website that allows the user to browse pasta dishes."},
-    {id: 2, img:"/projectImages/standardbarbecue.png", page:"/standardbarbecue", title:"Standard Barbecue", desc:"This is a barbecue sauce company website. It is designed to advertise and drive sales."},
-    {id: 3, img:"/projectImages/mindfulconnections.png", page:"/mindfulconnections", title:"Mindful Connections", desc:"This is a mental health services wesbite that is designed to advertise their services."},
-    {id: 4, img:"/projectImages/savannassweets.png", page:"/savannassweets", title:"Savanna's Sweets", desc:"This is a sample template of a cafe-style business. It is designed to drive attention and sales."},
-    {id: 5, img:"/projectImages/chessguessr.png", page:"/chessguessr", title:"Chess Guessr", desc:"This was a personal projet where the user has to guess what color square the coordinate is. "},
-    {id: 6, img:"/projectImages/synergy360.png", page:"/synergy360", title:"Synergy 360", desc:"This is a financial company website that is designed to advertise it's services."},
+    {id: 1, img:"/projectImages/synergy360.png", page:"/synergy360", title:"Synergy 360", desc:"This is a financial company website that is designed to advertise it's services."},
+    { id: 2, img:"/projectImages/gametimenetwork.png", page:"/gametimenetwork", title:"Game Time Network", desc:"This is a sports podcast website that showcases episodes, highlights hosts, and provides easy access to recent content." },
+    {id: 3, img:"/projectImages/standardbarbecue.png", page:"/standardbarbecue", title:"Standard Barbecue", desc:"This is a barbecue sauce company website. It is designed to advertise and drive sales."},
+    {id: 4, img:"/projectImages/mindfulconnections.png", page:"/mindfulconnections", title:"Mindful Connections", desc:"This is a mental health services wesbite that is designed to advertise their services."},
+    {id: 5, img:"/projectImages/everythingpasta.png", page:"/everythingpasta", title:"Everything Pasta", desc:"This is a pasta recipe/blog website that allows the user to browse pasta dishes."},
+    {id: 6, img:"/projectImages/chessguessr.png", page:"/chessguessr", title:"Chess Guessr", desc:"This was a personal projet where the user has to guess what color square the coordinate is. "},
   ];
 
   return (
@@ -45,9 +45,3 @@ export default function ProjectsP() {
     </section>
   )
 }
-
-/*
-This is a pasta recipe/blog website that allows the user to browse pasta dishes.
-Users have the ability to sign up and log in, along with the ability to make a post in the blog section. 
-There is also a feature that allows the user to search for specific dishes.
-*/

@@ -15,6 +15,7 @@ import ChessGuessr from './projects/ChessGuessr'
 import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
 import Synergy360 from './projects/Synergy360'
+import GameTimeNetwork from './projects/GameTimeNetwork'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/savannassweets" element={<SavannasSweets />}/>
         <Route path="/chessguessr" element={<ChessGuessr />}/>
         <Route path="/synergy360" element={<Synergy360 />}/>
+        <Route path="/gametimenetwork" element={<GameTimeNetwork />}/>
       </Routes>
     </>
   )
