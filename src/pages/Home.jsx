@@ -1,26 +1,25 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Technologies from '../components/Technologies'
-import Projects from '../components/Projects'
-import Services from '../components/Services'
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
-
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Technologies from "../components/Technologies";
+import Projects from "../components/Projects";
+import Services from "../components/Services";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+import { useLocation } from "react-router-dom";
+import ContactForm from "../components/ContactForm";
 
 export default function Home() {
-  
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-      <section className='home-section'>
-        <Hero />
-        <Technologies />
-        <Projects />
-        <Services />
-        <Contact />
-        <Footer />
-      </section>
-  )
+    <section className="home-section">
+      <Hero />
+      <Technologies />
+      <Projects />
+      <ContactForm />
+      <Footer />
+    </section>
+  );
 }

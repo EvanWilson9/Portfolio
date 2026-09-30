@@ -38,7 +38,7 @@ export default function Footer() {
             <Link className='link footer' to="/"><div className='footer-item'><HomeIcon/> Home</div></Link>
             <Link className='link footer' to="/about"><div className='footer-item'><AboutIcon/> About</div></Link>
             <Link className='link footer' to="/projects"><div className='footer-item'><ProjectsIcon/> Projects</div></Link>
-            <Link className='link footer' to="/"><div className='footer-item'><ServicesIcon/> Services</div></Link>
+            {/* <Link className='link footer' to="/"><div className='footer-item'><ServicesIcon/> Services</div></Link> */}
             <Link className='link footer' to="/contact"><div className='footer-item'><ContactIcon/> Contact</div></Link>
 
           </div>

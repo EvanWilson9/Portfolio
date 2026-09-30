@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -16,11 +16,11 @@ export default function Navbar() {
     <header className='laptop'>
       <Link to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
       <nav>
-        <Link style={{textDecoration:'none'}} to="/" className='link'>HOME</Link>
-        <Link style={{textDecoration:'none'}} to="/about" className='link'>ABOUT</Link>
-        <Link style={{textDecoration:'none'}} to="/projects" className='link'>PROJECTS</Link>
-        <Link style={{textDecoration:'none'}} to="/services" className='link'>SERVICES</Link>
-        <Link style={{textDecoration:'none'}} to="/contact" className='link'>CONTACT</Link>
+        <a style={{textDecoration:'none'}} href="/" className='link'>HOME</a>
+        {/* <Link style={{textDecoration:'none'}} to="/about" className='link'>ABOUT</Link> */}
+        <a style={{textDecoration:'none'}} href="#projects" className='link'>PROJECTS</a>
+        {/* <Link style={{textDecoration:'none'}} to="/services" className='link'>SERVICES</Link> */}
+        <a style={{textDecoration:'none'}} href="#contact" className='link'>CONTACT</a>
       </nav>
     </header>
     </div>
@@ -33,11 +33,11 @@ export default function Navbar() {
     }}
        to="/"><img className='logo' src="/images/portfolio-logo.jpg"/></Link>
     <nav className={`navbar ${isOpen ? 'opened' : 'closed'}`}>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/" className='link'>HOME</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/about" className='link'>ABOUT</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/projects" className='link'>PROJECTS</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/services" className='link'>SERVICES</Link>
-      <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/contact" className='link'>CONTACT</Link>
+      <a style={{textDecoration:'none'}} onClick={toggleNavbar} href="/" className='link'>HOME</a>
+      {/* <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/about" className='link'>ABOUT</Link> */}
+      <a style={{textDecoration:'none'}} onClick={toggleNavbar} href='#projects' className='link'>PROJECTS</a>
+      {/* <Link style={{textDecoration:'none'}} onClick={toggleNavbar} to="/services" className='link'>SERVICES</Link> */}
+      <a style={{textDecoration:'none'}} onClick={toggleNavbar} href="/contact" className='link'>CONTACT</a>
 
     </nav>
     {!isOpen ? 

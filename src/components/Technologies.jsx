@@ -1,51 +1,36 @@
-import React from 'react'
+import React from "react";
+import { technologies } from "../data/technologyIcons";
 
 export default function Technologies() {
   return (
-    <section className='technologies-section'>
+    <section className="technologies-section">
       <div className="technology-wrapper">
         <div className="technology-container">
-        <h2 className='title projects white'>TECHNOLOGIES</h2>
-        <div className='technologies'>
-        <div className='technology-category'>
-            <h3 className='technology-category-title'>Languages</h3>
-            <div className='technology-category-items'>
-              <p className='technology'><img className='technology-icon' src="/TechnologyIcons/javascript.png"/>Javascript</p>
-              <p className='technology'><img className='technology-icon' src="/TechnologyIcons/python.png"/>Python</p>
-              <p className='technology'><img className='technology-icon' src="/TechnologyIcons/java.png"/>Java</p>
-              <p className='technology'><img className='technology-icon' src="/TechnologyIcons/kotlin.png"/>Kotlin</p>
-              <p className='technology'><img className='technology-icon' src="/TechnologyIcons/r.png"/>R</p>
-            </div>
+          <h2 className="title projects white">TECHNOLOGIES</h2>
+          <div className="technologies">
+            {technologies.map((section) => (
+              <div className="technology-category" key={section.title}>
+                <h3 className="technology-category-title">{section.title}</h3>
+                <div className="technology-category-items">
+                  {section.items.map((technology) => (
+                    <p
+                      className="technology"
+                      key={`${section.title}-${technology.name}`}
+                    >
+                      <img
+                        className="technology-icon"
+                        src={technology.image}
+                        alt={technology.name}
+                      />
+                      {technology.name}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
-          <div className='technology-category'>
-            <h3 className='technology-category-title'>Backend</h3>
-            <div className='technology-category-items'>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/firebase.png"/>Firebase</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/mongodb.png"/>MongoDB</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/node.png"/>Node</p>
-            </div>
-          </div>
-          <div className='technology-category'>
-            <h3 className='technology-category-title'>Frontend</h3>
-            <div className='technology-category-items'>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/react.png"/>React</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/html.png"/>HTML</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/css.png"/>CSS</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/javascript.png"/>Javascript</p>
-            </div>
-          </div>
-          <div className='technology-category'>
-            <h3 className='technology-category-title'>Tools</h3>
-            <div className='technology-category-items'>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/vscode.png"/>VS Code</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/github.png"/>GitHub</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/npm.png"/>NPM</p>
-            <p className='technology'><img className='technology-icon' src="/TechnologyIcons/canva.png"/>Canva</p>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

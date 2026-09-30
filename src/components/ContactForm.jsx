@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export default function ContactForm() {
-    const [result, setResult] = React.useState("");
+  const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -12,7 +12,7 @@ export default function ContactForm() {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -26,24 +26,50 @@ export default function ContactForm() {
     }
   };
   return (
-    <section id="next" className='projectsp-section'>
-        <div className="projectsp-wrapper">
-          <div className='projectsp-top'>
-            <h2 className='title projects'>Contact Form</h2>
-            <p className='desc'>You can <a className='no-underline' href="mailto:evanpwilson1@gmail.com"><span className='contact-email'>click here</span></a> to send me an email message via your standard email client, or fill in the fields below.</p>
-          </div>
-          <div className='form-container'>
-            <form className='form-wrapper' onSubmit={onSubmit}>
-                <div className='form-inputs'>
-                    <input className='input' type="text" name="name" placeholder='Name' required/>
-                    <input className='input' type="email" name="email" placeholder='Email' required/>
-                    <textarea className='textarea' name="message" placeholder='Your Message' required></textarea>
-                </div>
-                <button className='button' type="submit">Submit</button>
-            </form>
-      <span>{result}</span>
-          </div>
-          </div>
-        </section>
-  )
+    <section id="contact" className="projectsp-section">
+      <div className="projectsp-wrapper">
+        <div className="projectsp-top">
+          <h2 className="title projects">CONTACT ME</h2>
+          <p className="desc">
+            You can{" "}
+            <a className="no-underline" href="mailto:evanpwilson1@gmail.com">
+              <span className="contact-email">click here</span>
+            </a>{" "}
+            to send me an email message via your standard email client, or fill
+            in the fields below.
+          </p>
+        </div>
+        <div className="form-container">
+          <form className="form-wrapper" onSubmit={onSubmit}>
+            <div className="form-inputs">
+              <input
+                className="input"
+                type="text"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <input
+                className="input"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                className="textarea"
+                name="message"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button className="button" type="submit">
+              Submit
+            </button>
+          </form>
+          <span>{result}</span>
+        </div>
+      </div>
+    </section>
+  );
 }
