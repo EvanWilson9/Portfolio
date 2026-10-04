@@ -5,8 +5,6 @@ import GitHub from "../FooterIcons/GitHub";
 import LinkedIn from "../FooterIcons/LinkedIn";
 import EmailIcon from "../FooterIcons/EmailIcon";
 
-import { Link } from "react-router-dom";
-
 function getCurrentAge() {
   const currentDate = new Date();
   const birthdayYear = 2005;
@@ -25,7 +23,7 @@ export default function Hero() {
       <div className="hero-wrapper">
         <img className="hero-img" src="/images/hero.png" />
         <div className="hero-content">
-          <h2 className="hero-title">Evan Wilson</h2>
+          <h1 id="hero-title">Evan Wilson</h1>
           <div className="hero-icons">
             <a
               className="social-link"
@@ -85,6 +83,14 @@ export default function Hero() {
                 My Projects
               </button>
             </a>
+          </div>
+          <div className="hero-skills-group">
+            <h2 className="hero-skills-title">Top Skills:</h2>
+            <ul className="hero-skills" aria-label="Top skills">
+              <li>.NET</li>
+              <li>React.js</li>
+              <li>PostgreSQL</li>
+            </ul>
           </div>
         </div>
       </div>

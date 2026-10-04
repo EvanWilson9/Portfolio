@@ -29,7 +29,15 @@ export default function ContactForm() {
     <section id="contact" className="projectsp-section">
       <div className="projectsp-wrapper">
         <div className="projectsp-top">
-          <h2 className="title projects">CONTACT ME</h2>
+          <div className="contact-heading">
+            <h2 className="title projects">CONTACT ME</h2>
+            <img
+              className="contact-heading-icon"
+              src="https://static.vecteezy.com/system/resources/thumbnails/068/030/312/small/round-circle-white-telephone-icon-free-png.png"
+              alt=""
+              aria-hidden="true"
+            />
+          </div>
           <p className="desc">
             You can{" "}
             <a className="no-underline" href="mailto:evanpwilson1@gmail.com">

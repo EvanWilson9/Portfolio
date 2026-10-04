@@ -5,23 +5,12 @@
   --mobileButton: 0.75rem 2rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-}
-
 .no-underline {
   text-decoration: none;
 }
 
 .logo {
   width: 50px;
-}
-header {
-  z-index: 1;
 }
 
 .home-section {
@@ -261,13 +250,44 @@ header {
   width: 250px;
   height: auto;
 }
-.hero-title {
+
+/* BEGIN PROJECT 1 REQUIREMENTS */
+
+#hero-title {
   font-size: 2.25rem;
 }
+
+header {
+  z-index: 1;
+}
+
 .hero-icons {
   display: flex;
   flex-direction: row;
   gap: 0.75rem;
+}
+
+.hero-skills-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.hero-skills-title {
+  flex: 0 0 auto;
+  color: rgb(86, 84, 84);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.hero-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  color: rgb(86, 84, 84);
+  font-size: 0.8rem;
 }
 
 .technologies-section {
@@ -279,6 +299,43 @@ header {
   flex-direction: column;
   align-items: center;
 }
+
+.footer-wrapper {
+  color: white;
+  display: grid;
+  grid-template-areas:
+    "item1 item2"
+    "item3 item3";
+  gap: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 1280px;
+  justify-content: space-evenly;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+}
+
+.visit-link {
+  color: rgb(255 70 84);
+  outline: rgb(255 70 84);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* END PROJECT 1 REQUIREMENTS */
+
 .technologies-title {
   color: white;
 }
@@ -291,6 +348,12 @@ header {
   gap: 2rem;
   max-width: 1280px;
   justify-content: center;
+  width: 100%;
+}
+.technology-category-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   width: 100%;
 }
 .technology-container {
@@ -309,13 +372,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-}
-.technology-category-items {
-  display: flex;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.5rem;
-  width: 100%;
 }
 .technology {
   background-color: white;
@@ -439,18 +495,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-.footer-wrapper {
-  color: white;
-  display: grid;
-  grid-template-areas:
-    "item1 item2"
-    "item3 item3";
-  gap: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 1280px;
-  justify-content: space-evenly;
-}
 
 .footer-wrapper > .one {
   grid-area: item1;
@@ -535,6 +579,16 @@ header {
 #contact .projectsp-top {
   align-items: center;
   text-align: center;
+}
+.contact-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.contact-heading-icon {
+  width: 1.9rem;
+  height: 1.9rem;
+  object-fit: contain;
 }
 #contact .projectsp-top > .desc {
   width: 100%;
@@ -633,10 +687,6 @@ header {
 .contact-email {
   color: rgb(255 70 84);
   font-weight: bold;
-}
-
-.contact-email:hover {
-  text-decoration: underline;
 }
 
 .input {
@@ -897,7 +947,7 @@ header {
   .projectsp.desc {
     font-size: 1.2rem;
   }
-  .hero-title {
+  #hero-title {
     font-size: 3.5vw;
   }
   .hero-img {
