@@ -5,7 +5,7 @@
     "title": "IndyTeer",
     "desc": "IndyTeer is a full-stack volunteer-matching platform built with a team as part of a hackathon project, connecting volunteers with local organizations in need of help. Built with React, TypeScript, and Supabase, it features user authentication, organization management, event registration, and volunteer-hour tracking, with database-enforced permissions to keep each user's data secure. The project was developed using AI-assisted workflows with Claude and ChatGPT to speed up development.",
     "link": "https://indyteer.netlify.app/",
-    "tech": "React.js, TypeScript, Supabase, PostgreSQL, Netlify",
+    "tech": "React.js, TypeScript, Supabase, PostgreSQL, Claude, Netlify",
     "isInProgress": false,
     "isLive": true
   },
@@ -66,7 +66,7 @@
     "title": "Game Time Network",
     "desc": "The Game Time Network website is a fully responsive platform built to showcase their growing sports media brand, featuring weekly live shows, podcasts, host profiles, and interviews with major sports figures. The design focuses on clean navigation and bold visuals, making it easy for fans to explore shows like GameTime Live, After Hours, Cot’s Corner, and Following the Pack. With strong community roots and authentic sports conversations, the site gives users a clear and engaging way to connect with the network.",
     "link": "https://gametimenetwork.org/",
-    "tech": "Next.js, Netlify",
+    "tech": "Next.js, Figma, Netlify",
     "isInProgress": false,
     "isLive": true
   },
@@ -76,7 +76,7 @@
     "title": "Standard Barbecue",
     "desc": "The Standard Barbecue website is a personally designed, fully responsive site built for a barbecue sauce company to showcase their lineup of sauces. Visitors can browse each product with bold imagery and clear descriptions, then head straight to the company's Shopify store to place an order. Built with React.js and hosted with HostGator, the site gives the brand a polished online presence that looks great on phones, tablets, and desktops.",
     "link": "https://barbecuesample.netlify.app/",
-    "tech": "React.js, Shopify, HostGator",
+    "tech": "React.js, Figma, Shopify, HostGator",
     "isInProgress": false,
     "isLive": true
   },
@@ -86,7 +86,7 @@
     "title": "Synergy 360, LLC",
     "desc": "The Synergy 360, LLC website is a personally designed, fully responsive site for a financial planning firm, built to show visitors who they are and the services they offer. The layout focuses on a clean, professional look with clear sections for the firm's story, team, and financial planning services, making it easy for prospective clients to learn about the business and feel confident reaching out. Built with React.js and optimized for every screen size.",
     "link": "https://synergy-360.com/",
-    "tech": "React.js",
+    "tech": "React.js, Figma",
     "isInProgress": false,
     "isLive": true
   },
@@ -96,7 +96,7 @@
     "title": "Justine Ocken",
     "desc": "The Justine Ocken website is a personally designed, fully responsive portfolio built to showcase her artwork in a clean, gallery-style layout. Visitors can browse her pieces, learn about her and her creative background on the about page, and use the built-in contact form to request commissions directly. Built with React.js, the site keeps the focus on the art while making it simple for new clients to get in touch from any device.",
     "link": "https://justineocken.netlify.app/",
-    "tech": "React.js, Netlify",
+    "tech": "React.js, Figma, Netlify",
     "isInProgress": false,
     "isLive": true
   }
