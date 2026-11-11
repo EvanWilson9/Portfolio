@@ -19,7 +19,7 @@ export default function Projects() {
           </div>
           <div className="projects-container">
             <div className="solo-projects-wrapper">
-              {projects.map((item) => {
+              {projects.filter((item) => !item.hidden).map((item) => {
                 let technologyList = item.tech.split(", ");
                 return (
                   <ProjectItem
