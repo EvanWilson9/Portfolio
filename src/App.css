@@ -249,6 +249,8 @@
 .hero-img {
   width: 250px;
   height: auto;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
 }
 
 /* BEGIN PROJECT 1 REQUIREMENTS */
@@ -639,6 +641,9 @@ header {
   width: 100%;
   max-width: 420px;
   height: auto;
+  aspect-ratio: 940 / 788;
+  flex-shrink: 0;
+  display: block;
   object-fit: contain;
 }
 .projectp-content {
@@ -952,6 +957,7 @@ header {
   }
   .hero-img {
     width: 45%;
+    flex: 0 0 45%;
   }
   .hero-content .center {
     text-align: start;

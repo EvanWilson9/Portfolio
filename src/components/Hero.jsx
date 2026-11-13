@@ -21,7 +21,14 @@ export default function Hero() {
   return (
     <section className="hero-section">
       <div className="hero-wrapper">
-        <img className="hero-img" src="/images/hero.png" />
+        <img
+          className="hero-img"
+          src="/images/hero.png"
+          alt=""
+          width="1080"
+          height="1080"
+          fetchPriority="high"
+        />
         <div className="hero-content">
           <h1 id="hero-title">Evan Wilson</h1>
           <div className="hero-icons">

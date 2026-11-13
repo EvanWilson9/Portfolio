@@ -28,7 +28,13 @@ export default function ProjectItem({
 
   return (
     <div className="project">
-      <img alt="" className="projectp-img" src={img} />
+      <img
+        alt=""
+        className="projectp-img"
+        src={img}
+        width="940"
+        height="788"
+      />
       <div className="projectp-content">
         <div className="projectp-content-top">
           <h2>{title}</h2>
